@@ -1,0 +1,23 @@
+{
+  "name": "discord-diagnostic-bot",
+  "version": "1.0.0",
+  "description": "A bot created with the simple purpose to tell anyone a basic psychologilcal diagnostic. It consist in a short test with optional answers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljcruz709/discord-diagnostic-bot.git"
+  },
+  "author": "Leonardo Cruz, Ester Uscanga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljcruz709/discord-diagnostic-bot/issues"
+  },
+  "homepage": "https://github.com/ljcruz709/discord-diagnostic-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "nodemon": "^1.19.1"
+  }
+}

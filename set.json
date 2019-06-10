@@ -1,0 +1,60 @@
+[
+	{
+		"preguntas" : [
+    	{
+					"pregunta": "Vas a hacer un examen. ¿Cómo te preparas?",
+    		"respuestas": "a) Estudio mucho. \nb) El último día. \nc) Paso, prefiero jugar",
+    		"caracteristicas" :{ 
+    			"a" : ["Fuerte"],
+    			"b" : ["Plácido"],
+    			"c" : ["Agitado"]
+    		},
+    		"pesos": {
+     		 	"a" : [2],
+       		"b" : [2],
+       		"c" : [2]
+				}
+			},
+
+			{
+	    	"pregunta": "¿Tienes capacidad de concentración?",
+    		"respuestas": "a) Sí. \nb)No.",
+    		"caracteristicas" :{
+    			"a" : ["Fuerte", "Dócil"],
+    			"b" : ["Raro"]
+    		},
+    		"pesos": {
+     		 	"a" : [2,1],
+       		"b" : [2]
+				}  
+			},
+			
+			{
+				"pregunta": "¿Le pones al mal tiempo buena cara?",
+    		"respuestas": "a) Sí. \nb)No.",
+    		"caracteristicas" :{
+    			"a" : ["Fuerte", "Audaz"],
+    			"b" : ["Grosero", "Raro"]
+    		},
+    		"pesos": {
+       	 	"a" : [2,2],
+        	"b" : [2,2]
+				}  
+			},
+			{
+				"pregunta": "Imagina que tienes un cubo.Si tuvieras que llevar agua,¿cómo lo llenarías?",
+    		"respuestas": "a)Hasta arriba. \nb)Por la mitad. \nc)Un poco.",
+    		"caracteristicas" :{
+    			"a" : ["Fuerte"],
+    			"b" : ["Sereno"],
+    			"c" : ["Raro"]
+    		},
+    		"pesos": {
+       		"a" : [2],
+        	"b" : [2],
+        	"c" : [2]
+				}  
+			}	
+		]
+	}
+]
