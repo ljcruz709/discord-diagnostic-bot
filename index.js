@@ -5,7 +5,7 @@ const preguntas = JSON.parse(Fs.readFileSync('set.json')); //set.json stores the
 let testers = []
 
 client.on(`ready`, () => {
-    console.log(`bot is on :)`);
+	console.log(`bot is on :)`);
 });
 
 client.on(`message`, mensaje => {
@@ -51,4 +51,4 @@ client.on(`message`, mensaje => {
 });
 
 //add bot's token here. Remember to update everyday
-client.login('NTg2MzUzNTg4MDcxMzAxMTIy.XP7g7A.jGicRbUPOc9Wf-hmo8_P4WDWyyk');
+client.login('');
