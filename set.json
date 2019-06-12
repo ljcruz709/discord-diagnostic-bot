@@ -1,60 +1,944 @@
 [
-	{
-		"preguntas" : [
-    	{
-					"pregunta": "Vas a hacer un examen. ¿Cómo te preparas?",
-    		"respuestas": "a) Estudio mucho. \nb) El último día. \nc) Paso, prefiero jugar",
-    		"caracteristicas" :{ 
-    			"a" : ["Fuerte"],
-    			"b" : ["Plácido"],
-    			"c" : ["Agitado"]
-    		},
-    		"pesos": {
-     		 	"a" : [2],
-       		"b" : [2],
-       		"c" : [2]
-				}
-			},
-
-			{
-	    	"pregunta": "¿Tienes capacidad de concentración?",
-    		"respuestas": "a) Sí. \nb)No.",
-    		"caracteristicas" :{
-    			"a" : ["Fuerte", "Dócil"],
-    			"b" : ["Raro"]
-    		},
-    		"pesos": {
-     		 	"a" : [2,1],
-       		"b" : [2]
-				}  
-			},
-			
-			{
-				"pregunta": "¿Le pones al mal tiempo buena cara?",
-    		"respuestas": "a) Sí. \nb)No.",
-    		"caracteristicas" :{
-    			"a" : ["Fuerte", "Audaz"],
-    			"b" : ["Grosero", "Raro"]
-    		},
-    		"pesos": {
-       	 	"a" : [2,2],
-        	"b" : [2,2]
-				}  
-			},
-			{
-				"pregunta": "Imagina que tienes un cubo.Si tuvieras que llevar agua,¿cómo lo llenarías?",
-    		"respuestas": "a)Hasta arriba. \nb)Por la mitad. \nc)Un poco.",
-    		"caracteristicas" :{
-    			"a" : ["Fuerte"],
-    			"b" : ["Sereno"],
-    			"c" : ["Raro"]
-    		},
-    		"pesos": {
-       		"a" : [2],
-        	"b" : [2],
-        	"c" : [2]
-				}  
-			}	
-		]
-	}
+    {
+        "pregunta": "Vas a hacer un examen. ¿Cómo te preparas?",
+        "respuestas": "a) Estudio mucho. \nb) El último día. \nc) Paso, prefiero jugar.",
+        "caracteristicas": {
+            "a": [
+                "Fuerte"
+            ],
+            "b": [
+                "Plácido"
+            ],
+            "c": [
+                "Agitado"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2
+            ],
+            "b": [
+                2
+            ],
+            "c": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Tienes capacidad de concentración?",
+        "respuestas": "a) Sí. \nb)No.",
+        "caracteristicas": {
+            "a": [
+                "Fuerte",
+                "Dócil"
+            ],
+            "b": [
+                "Raro"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2,
+                1
+            ],
+            "b": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Le pones al mal tiempo buena cara?",
+        "respuestas": "a) Sí. \nb)No.",
+        "caracteristicas": {
+            "a": [
+                "Fuerte",
+                "Audaz"
+            ],
+            "b": [
+                "Grosero",
+                "Raro"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2,
+                2
+            ],
+            "b": [
+                2,
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "Imagina que tienes un cubo.Si tuvieras que llevar agua, ¿cómo lo llenarías?",
+        "respuestas": "a)Hasta arriba. \nb)Por la mitad. \nc)Un poco.",
+        "caracteristicas": {
+            "a": [
+                "Fuerte"
+            ],
+            "b": [
+                "Sereno"
+            ],
+            "c": [
+                "Raro"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2
+            ],
+            "b": [
+                2
+            ],
+            "c": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "Si te dan elegir entre dos regalos,¿por cuál te decides?",
+        "respuestas": "a) La caja grande.\nb) La caja pequeña.",
+        "caracteristicas": {
+            "a": [
+                "Dócil",
+                "Osado"
+            ],
+            "b": [
+                "Miedoso",
+                "Sereno"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2,
+                1
+            ],
+            "b": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "pregunta": "Si se te cae un huevo podrido en la habitación, ¿qué haces?",
+        "respuestas": "a) ¡Abro la ventana!\nb) Respirar hondo.",
+        "caracteristicas": {
+            "a": [
+                "Dócil",
+                "Activo"
+            ],
+            "b": [
+                "Osado",
+                "Placida"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2,
+                1
+            ],
+            "b": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "pregunta": "Un amigo te da algo que se te había olvidado. ¿Cómo se lo agradeces?",
+        "respuestas": "a) Dándole las gracias.\nb) Con una bromilla.\nc) Lo normal, sin exagerar.",
+        "caracteristicas": {
+            "a": [
+                "Dócil"
+            ],
+            "b": [
+                "Osado",
+                "Huraño"
+            ],
+            "c": [
+                "Grosero"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2
+            ],
+            "b": [
+                2,
+                1
+            ],
+            "c": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "Vas por la calle y ves una cartera en el suelo.",
+        "respuestas": "a)¡La llevo a la policía!\nb) Uf, qué difícil...\nc) Si no me ve nadie...",
+        "caracteristicas": {
+            "a": [
+                "Dócil"
+            ],
+            "b": [
+                "Osado"
+            ],
+            "c": [
+                "Agitado"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2
+            ],
+            "b": [
+                2
+            ],
+            "c": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "Vas a hacer puenting por primera vez. Como te da miedo, pruebas lanzando primero un muñeco... ¡y se parte la cuerda! ¿Te atreves a saltar de todas formas?",
+        "respuestas": "a) Sí.\nb) No.",
+        "caracteristicas": {
+            "a": [
+                "Audaz",
+                "Agitado"
+            ],
+            "b": [
+                "Dócil",
+                "Miedoso"
+            ]
+        },
+        "pesos": {
+            "a": [
+                3,
+                1
+            ],
+            "b": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "pregunta": "Te enfrentas a los extraterrestres... Pero te ganan... Y uno te dice... ERES IMPRESIONANTE. ¡QUÉ FUERZA!ÚNETE A NOSOTROS, ¡CONQUISTEMOS EL MUNDO! ¿Qué haces?",
+        "respuestas": "a) Unirme a ellos.\nb) Negarme.",
+        "caracteristicas": {
+            "a": [
+                "Grosero",
+                "Placida"
+            ],
+            "b": [
+                "Audaz"
+            ]
+        },
+        "pesos": {
+            "a": [
+                1,
+                1
+            ],
+            "b": [
+                4
+            ]
+        }
+    },
+    {
+        "pregunta": "¡Alguien pega un grito al otro lado de una puerta! ¿Qué haces?",
+        "respuestas": "a) Abrirla de golpe.\nb) ¡Gritar yo también!",
+        "caracteristicas": {
+            "a": [
+                "Fuerte",
+                "Audaz"
+            ],
+            "b": [
+                "Osada"
+            ]
+        },
+        "pesos": {
+            "a": [
+                1,
+                2
+            ],
+            "b": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "Un tipo raro está molestando a una chica en una calle llena de gente. ¿Qué haces?",
+        "respuestas": "a) Ayudarla sin dudarlo.\nb) Ayudarla, pero con miedo.\nc) Llamar a la policia. \nd) Nada, de puro miedo.",
+        "caracteristicas": {
+            "a": [
+                "Audaz"
+            ],
+            "b": [
+                "Fuerte",
+                "Audaz"
+            ],
+            "c": [
+                "Dócil",
+                "Miedoso",
+                "Placida"
+            ],
+            "d": [
+                "Miedoso"
+            ]
+        },
+        "pesos": {
+            "a": [
+                3
+            ],
+            "b": [
+                2,
+                2
+            ],
+            "c": [
+                1,
+                1,
+                1
+            ],
+            "d": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Eres una persona alegre?",
+        "respuestas": "a) Sí.\nb) No.",
+        "caracteristicas": {
+            "a": [
+                "Alegre",
+                "Osado"
+            ],
+            "b": [
+                "Grosero",
+                "Raro"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2,
+                1
+            ],
+            "b": [
+                1,
+                1
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Te gusta armar jaleo cuando sales con tus amigos o amigas? ",
+        "respuestas": "a) Claro.\nb) No.",
+        "caracteristicas": {
+            "a": [
+                "Alegre",
+                "Huraño"
+            ],
+            "b": [
+                "Miedoso"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2,
+                1
+            ],
+            "b": [
+                1
+            ]
+        }
+    },
+    {
+        "pregunta": "¡Comienzan tus vacaciones de verano! ¿A dónde te gusta ir?",
+        "respuestas": "a) !A la playa!\nb) A un balneario.\nc) Me da igual.",
+        "caracteristicas": {
+            "a": [
+                "Alegre"
+            ],
+            "b": [
+                "Sereno"
+            ],
+            "c": [
+                "Raro"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2
+            ],
+            "b": [
+                2
+            ],
+            "c": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "Un extranjero empieza a hablarte. Resulta que no entiendes nada de lo que dice. ¿Qué le dices?",
+        "respuestas": "a) !Ja ja! !Que gracioso!\nb) Este... ¿Cómo dice?\nc) Ejem, tengo que irme.",
+        "caracteristicas": {
+            "a": [
+                "Alegre"
+            ],
+            "b": [
+                "Fuerte"
+            ],
+            "c": [
+                "Miedoso"
+            ]
+        },
+        "pesos": {
+            "a": [
+                3
+            ],
+            "b": [
+                2
+            ],
+            "c": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Te gustan los chistes malos?",
+        "respuestas": "a) !Me encantan!\nb) Un poco.\nc) Nada.",
+        "caracteristicas": {
+            "a": [
+                "Agitado",
+                "Osado"
+            ],
+            "b": [
+                "Alegre"
+            ],
+            "c": [
+                "Grosero"
+            ]
+        },
+        "pesos": {
+            "a": [
+                1,
+                3
+            ],
+            "b": [
+                2
+            ],
+            "c": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Dicen de ti que eres infantil?",
+        "respuestas": "a) Sí.\nb) No.",
+        "caracteristicas": {
+            "a": [
+                "Alegre",
+                "Osado"
+            ],
+            "b": [
+                "Sereno"
+            ]
+        },
+        "pesos": {
+            "a": [
+                1,
+                2
+            ],
+            "b": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Te gusta imaginarte cosas para entretenerte? ",
+        "respuestas": "a) Sí.\nb) No.",
+        "caracteristicas": {
+            "a": [
+                "Osado"
+            ],
+            "b": [
+                "Activo"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2
+            ],
+            "b": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Has puesto una trampa a alguien alguna vez?",
+        "respuestas": "a) Sí.\nb) No.",
+        "caracteristicas": {
+            "a": [
+                "Agitado",
+                "Huraño"
+            ],
+            "b": [
+                "Sereno"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2,
+                1
+            ],
+            "b": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Te gustan las bromas?",
+        "respuestas": "a) Sí.\nb) No.",
+        "caracteristicas": {
+            "a": [
+                "Agitado"
+            ],
+            "b": [
+                "Dócil",
+                "Placida"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2
+            ],
+            "b": [
+                1,
+                1
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Hay muchas cosas que te gustaría hacer?",
+        "respuestas": "a) Sí.\nb) No.",
+        "caracteristicas": {
+            "a": [
+                "Fuerte",
+                "Agitado"
+            ],
+            "b": [
+                "Grosero",
+                "Raro"
+            ]
+        },
+        "pesos": {
+            "a": [
+                1,
+                2
+            ],
+            "b": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "Un broncas se está metiendo con un amigo. ¿Qué haces? ",
+        "respuestas": "a) Me enfrento a él.\nb) Le amenazo, desde lejos.\n c)Me lanzo a por él.",
+        "caracteristicas": {
+            "a": [
+                "Audaz"
+            ],
+            "b": [
+                "Miedoso"
+            ],
+            "c": [
+                "Agitado"
+            ]
+        },
+        "pesos": {
+            "a": [
+                3
+            ],
+            "b": [
+                2
+            ],
+            "c": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "¡Alguien te tiende la mano desde dentro del retrete! ¿Qué haces?",
+        "respuestas": "a) Gritar y huir.\nb) Cerrar la tapa.\n c)Darle la mía.",
+        "caracteristicas": {
+            "a": [
+                "Miedoso"
+            ],
+            "b": [
+                "Fuerte",
+                "Sereno"
+            ],
+            "c": [
+                "Audaz",
+                "Agitado",
+                "Osado"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2
+            ],
+            "b": [
+                1,
+                2
+            ],
+            "c": [
+                2,
+                1,
+                1
+            ]
+        }
+    },
+    {
+        "pregunta": "Con la mano derecha te coges un dedo de la mano izquierda. ¿Qué dedo coges?",
+        "respuestas": "a) Pulgar.\nb) índice.\n c) Corazón.\nd) Anular.\ne) Meñique.",
+        "caracteristicas": {
+            "a": [
+                "Miedoso"
+            ],
+            "b": [
+                "Activo"
+            ],
+            "c": [
+                "Alegre"
+            ],
+            "d": [
+                "Grosero"
+            ],
+            "e": [
+                "Huraño"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2
+            ],
+            "b": [
+                2
+            ],
+            "c": [
+                2
+            ],
+            "d": [
+                2
+            ],
+            "e": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "¡De repente, te encierran bajo llave en una habitación oscura! ¿Qué haces? ",
+        "respuestas": "a) Patear la puerta.\nb) Pedir socorro.\n c) Limpiar la habitación.",
+        "caracteristicas": {
+            "a": [
+                "Miedoso"
+            ],
+            "b": [
+                "Huraño"
+            ],
+            "c": [
+                "Agitado",
+                "Raro"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2
+            ],
+            "b": [
+                2
+            ],
+            "c": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "pregunta": "¡Has ganado la lotería! ¿Qué haces con el dinero?",
+        "respuestas": "a) Gastarlo\nb) Ahorrarlo\n c) Darlo a los pobres",
+        "caracteristicas": {
+            "a": [
+                "Alegre",
+                "Activo"
+            ],
+            "b": [
+                "Fuerte",
+                "Sereno"
+            ],
+            "c": [
+                "Audaz",
+                "Raro"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2,
+                1
+            ],
+            "b": [
+                1,
+                1
+            ],
+            "c": [
+                2,
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Te dicen que pienses antes de hablar?",
+        "respuestas": "a) Sí.\nb) No.",
+        "caracteristicas": {
+            "a": [
+                "Agitado",
+                "Grosero"
+            ],
+            "b": [
+                "Sereno"
+            ]
+        },
+        "pesos": {
+            "a": [
+                1,
+                2
+            ],
+            "b": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Te gusta luchar?",
+        "respuestas": "a) Sí.\nb) No.",
+        "caracteristicas": {
+            "a": [
+                "Agitado",
+                "Miedoso"
+            ],
+            "b": [
+                "Sereno",
+                "Huraño"
+            ]
+        },
+        "pesos": {
+            "a": [
+                1,
+                2
+            ],
+            "b": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Bostezas con frecuencia?",
+        "respuestas": "a) Sí.\nb) No.",
+        "caracteristicas": {
+            "a": [
+                "Sereno",
+                "Placida"
+            ],
+            "b": [
+                "Fuerte",
+                "Activo"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2,
+                1
+            ],
+            "b": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Sueles llegar tarde a clase o cuando quedas?",
+        "respuestas": "a) Sí.\nb) No.",
+        "caracteristicas": {
+            "a": [
+                "Grosero",
+                "Placida"
+            ],
+            "b": [
+                "Fuerte",
+                "Activo"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2,
+                1
+            ],
+            "b": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Tienes la sensación de que últimamente te tomas las cosas con más calma?",
+        "respuestas": "a) Sí.\nb) No.",
+        "caracteristicas": {
+            "a": [
+                "Placida"
+            ],
+            "b": [
+                "Agitado",
+                "Activo"
+            ]
+        },
+        "pesos": {
+            "a": [
+                2
+            ],
+            "b": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Te duermes sin darte cuenta? ",
+        "respuestas": "a) Sí.\nb) No.",
+        "caracteristicas": {
+            "a": [
+                "Sereno",
+                "Placida"
+            ],
+            "b": [
+                "Fuerte"
+            ]
+        },
+        "pesos": {
+            "a": [
+                1,
+                2
+            ],
+            "b": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Te molesta que todos salgan de clase antes que tú?",
+        "respuestas": "a) Sí.\nb) No.",
+        "caracteristicas": {
+            "a": [
+                "Miedoso",
+                "Huraño"
+            ],
+            "b": [
+                "Audaz",
+                "Placida"
+            ]
+        },
+        "pesos": {
+            "a": [
+                1,
+                2
+            ],
+            "b": [
+                3,
+                1
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Cómo te gusta dormirte?",
+        "respuestas": "a) Con la luz encendida.\nb) Con la luz apagada.",
+        "caracteristicas": {
+            "a": [
+                "Miedoso",
+                "Huraño"
+            ],
+            "b": [
+                "Sereno"
+            ]
+        },
+        "pesos": {
+            "a": [
+                1,
+                2
+            ],
+            "b": [
+                2
+            ]
+        }
+    },
+    {
+        "pregunta": "Es fin de semana y nadie quiere jugar contigo ¿Qué haces?",
+        "respuestas": "a) Me voy de escapada.\nb) Vagueo un poco por ahí.\nc) Nadie me quiere... Buaaaaa...",
+        "caracteristicas": {
+            "a": [
+                "Alegre",
+                "Huraño"
+            ],
+            "b": [
+                "Sereno",
+                "Placida"
+            ],
+            "c": [
+                "Miedoso",
+                "Huraño"
+            ]
+        },
+        "pesos": {
+            "a": [
+                1,
+                1
+            ],
+            "b": [
+                1,
+                2
+            ],
+            "c": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "pregunta": "¿Respondes con rapidez a un e-mail?",
+        "respuestas": "a) Al instante.\nb) Depende.\nc) Uf, que va...",
+        "caracteristicas": {
+            "a": [
+                "Fuerte",
+                "Activo"
+            ],
+            "b": [
+                "Raro"
+            ],
+            "c": [
+                "Grosero"
+            ]
+        },
+        "pesos": {
+            "a": [
+                1,
+                1
+            ],
+            "b": [
+                2
+            ],
+            "c": [
+                2
+            ]
+        }
+    }
 ]
