@@ -131,7 +131,7 @@
             ],
             "b": [
                 "Osado",
-                "Placida"
+                "Plácido"
             ]
         },
         "pesos": {
@@ -229,7 +229,7 @@
         "caracteristicas": {
             "a": [
                 "Grosero",
-                "Placida"
+                "Plácido"
             ],
             "b": [
                 "Audaz"
@@ -281,7 +281,7 @@
             "c": [
                 "Dócil",
                 "Miedoso",
-                "Placida"
+                "Plácido"
             ],
             "d": [
                 "Miedoso"
@@ -504,7 +504,7 @@
             ],
             "b": [
                 "Dócil",
-                "Placida"
+                "Plácido"
             ]
         },
         "pesos": {
@@ -749,7 +749,7 @@
         "caracteristicas": {
             "a": [
                 "Sereno",
-                "Placida"
+                "Plácido"
             ],
             "b": [
                 "Fuerte",
@@ -773,7 +773,7 @@
         "caracteristicas": {
             "a": [
                 "Grosero",
-                "Placida"
+                "Plácido"
             ],
             "b": [
                 "Fuerte",
@@ -796,7 +796,7 @@
         "respuestas": "a) Sí.\nb) No.",
         "caracteristicas": {
             "a": [
-                "Placida"
+                "Plácido"
             ],
             "b": [
                 "Agitado",
@@ -819,7 +819,7 @@
         "caracteristicas": {
             "a": [
                 "Sereno",
-                "Placida"
+                "Plácido"
             ],
             "b": [
                 "Fuerte"
@@ -845,7 +845,7 @@
             ],
             "b": [
                 "Audaz",
-                "Placida"
+                "Plácido"
             ]
         },
         "pesos": {
@@ -891,7 +891,7 @@
             ],
             "b": [
                 "Sereno",
-                "Placida"
+                "Plácido"
             ],
             "c": [
                 "Miedoso",

@@ -1,0 +1,33 @@
+{
+    "descripciones" : {
+        "Dócil" : "Eres una persona de buen corazón. Muy servicial. Puedes hacerte amigo de cualquier persona. Eres una persona maravillosa, ...Eso te parece demasiado?, yo no lo creo, tú mísmo deberías ser el mejor juez para juzgar esto.",
+        "Grosero" : "Tiendes a ser algo cínico, a pesar de eso, hay algo atractivo que puede ser amado por los demás. ¿Normalmente dices cosas arrogantes que molesta a los demás? ¿Haces ese error? ¿O las personas te han llamado presuntuoso, vanidoso o egoísta? ¿Las personas te han llamado así? ¿Uh? ¿Me estás diciendo que me vaya? Oh tu... acercate y dimelo a la cara. oh... lo siento, dije cosas sin pensarlas, en serio lo lamento. Bueno, sigamos... tu actitud tranquila y distante es lo que te define. Eso te hace exasperante y atractivo al mismo tiempo.",
+        "Fuerte" : "Haces tu tarea con esmero y saber como comer apropiadamente, tienes una voluntad muy fuerte que te permite completar tus tareas pero en ocasiones también puedes ser necio al punto de irritar a tus amigos. No te irá bien en nada cuando estes irritado, así que aprende a reír y ser positivo en ciertas situaciones.",
+        "Miedoso" : "Puede que te sea difícil ir al baño durante la noche. Puede que también te asuste el hecho de que tengas que regresar a la escuela para recoger algo que dejaste olvidado en el salón. Cuando caminas por una calle oscura por la noche, probablemente volteas mucho hacia atrás para asegurarte de que no hay alguien detrás tuyo. Pero tu naturaleza miedosa es también un buen atributo porque aquellos que conocen el miedo son aquellos que también conocer el verdadero coraje.",
+        "Activo" : "Te gusta tomar la iniciativa y encargarte de las cosas, eres alguien que está dispuesto a conseguir lo que quiere, pero... ¿también estás algo estresado?. Te irritas cuando tus amigos no llegan a tiempo a algún lugar. Te frustas cuando las cosas no pasan como tu quieres que pasen. Quizá haces que el botón del elevador se trabe de tanto que lo presionas cuando va muy lento. Cuidado, irritarse muy fácil no es algo bueno para tu persona.",
+        "Alegre" : "Siempre ries y sonries, le levantas el anímo a todos los que están a tu alrededor, amas las bromas, tienes muchos amigos y eres muy popular sin importar a donde vayas pero en ocasiones te dejas llevar y dices cosas que te meten en problemas, deberías aprender a pensar antes de decir o hacer algo.",
+        "Osado" : "Eres extremadamente curioso y amas las cosas raras. Tu actitud animada y sin preocupaciones debería hacer las cosas divertidas para aquellos a tu alrededor pero tienes un pequeño defecto, tiendes a ser infantil. Nunca puedes sentarte y estar tranquilo, siempre te estás moviendo, en ocasiones puedes ser egoísta así que deberías cuidar eso de ti.",
+        "Sereno" : "Eres capaz de dar consejos a tus amigos que tienen preocupaciones, no te gusta pelear, eres una persona de buen corazon que se preocupa por los demás, de seguro tienes muchos amigos que te admiran, sin embargo... puede que tambien seas algo incrédulo... e incluso eres un poco descuidado y despistado, quizá quieras recordar esos atributos para después.",
+        "Agitado" : "Eres juguetón, alegre y amas las bromas, tambíen eres alguien de buen corazón, gracias a esto las personas a tu alrededor te ven como alguien irresistible. De seguro debes ser la persona más popular en ese lugar. ¿Qué? ¿No eres tan popular?, de seguro estás siendo modesto... o quizá aún no lo has notado. Te apuesto a que las peronas son demasiado tímidas como para platicar de lo que sienten. Hay alguien ahí afuera que tiene miedo de declararte su amor.",
+        "Huraño" : "Siempre actuas como alguien animado alrededor de la gente, pero solo lo haces por que estás con alguien, sin embargo, cuando estás solo ¿No te sientes extrañamente deprimido? es por esto que siempre quieres estar con alguien. Pero si te sientes deprimido por mucho tiempo probablemente tu balance nutricional puede desequilibrarse. Asegúrate de comer más vegetables. Sin embargo... no es algo malo sentirse solo de vez en cuando. Sabes que se siente cuando no estás solo, por eso empiezas a sentir la soledad cuando no hay alguien alrededor.",
+        "Plácido" : "¿Normalmente te pierdes en tus pensamientos y se te va el autobus? ¿O en ocasiones te encuentras cabeceando en medio del día? ¿O es tu tiempo de reacción más lento que el de los demás?, Esto no es necesariamente malo, puedes hacer las cosas a tu propio ritmo sin sentirte apresurado, puedes vivir con un comportamiento relajado y sin prisas sin preocuparte. Opino que eso es un estilo de vida que los demás desearían tener. Tambíen eres muy popular. La forma en la que te pierdes en tus pensamientos mientras miras el horizonte... quizá haga que a alguien se le suba el ritmo cardiaco con solo verte.",
+        "Raro" : "Las personas te consideran alguien exéntrico que hace las cosas a su propio ritmo. Nunca cambias tu forma de hacer las cosas. Tu naturaleza despreocupada te hace atractivo pero eso tambíen parece algo infantil... Eres alguien que cambia de parecer muy seguido y causas problemas a las personas que se llevan bien contigo. Probablemeten las personas estén molestas de que seas así todo el tiempo. Si te das cuenta de lo egoísta que estás siendo, trata de pensar antes de hacer algo apresurado.",
+        "Audaz" : "Tienes un gran sentido de la justicia, odias el mal y estás dispuesto a enfrentarte a cualquier oponente. Eres un verdadero héroe, sigue así, por la justicia, por la paz en la tierra, enfrentate a las fuerzas del mal. Si me equivoco, asegúrate de convertirte en un verdadero héroe en el futuro."
+    },
+    "nombres" : ["Dócil", "Grosero", "Fuerte", "Miedoso", "Activo", "Alegre", "Osado", "Sereno", "Agitado", "Huraño", "Plácido", "Raro", "Audaz"],
+    "count" : {
+        "Dócil" : 0, 
+        "Grosero" : 0, 
+        "Fuerte"  : 0, 
+        "Miedoso" : 0, 
+        "Activo" : 0, 
+        "Alegre" : 0, 
+        "Osado"  : 0, 
+        "Sereno" : 0, 
+        "Agitado" : 0, 
+        "Huraño" : 0, 
+        "Plácido" : 0, 
+        "Raro" : 0, 
+        "Audaz" : 0
+    }
+}
